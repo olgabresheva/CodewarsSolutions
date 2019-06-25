@@ -30,3 +30,14 @@ if(beast[0] === dish[0] && beast.charAt(beast.length-1) === dish.charAt(dish.len
   else return false;
 }
 ```
+
+[https://www.codewars.com/kata/simple-multiplication/train/javascript]
+
+```javascript
+function simpleMultiplication(number) {
+  if(number % 2 === 0){
+  return number * 8;
+  }
+  else return number * 9;
+}
+```
