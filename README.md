@@ -127,3 +127,12 @@ let sum = a + b;
     else return 'string';
 }
 ```
+
+[https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript]
+
+```javascript
+function stringToArray(string){
+const arr = string.split(" ");
+return arr;
+}
+```
