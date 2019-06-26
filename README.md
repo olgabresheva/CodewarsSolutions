@@ -136,3 +136,49 @@ const arr = string.split(" ");
 return arr;
 }
 ```
+
+[https://www.codewars.com/kata/array-plus-array/train/javascript]
+
+```javascript
+function arrayPlusArray(arr1, arr2) {
+let sum = 0;
+for(let i = 0; i < arr1.length; i++){
+  sum += arr1[i]
+}
+for(let j = 0; j < arr2.length; j++){
+ sum += arr2[j];
+}
+  return sum; 
+}
+```
+
+[https://www.codewars.com/kata/credit-card-issuer-checking/train/javascript]
+
+```javascript
+function getIssuer(number) {
+  if((number.toString().substring(0, 2) === '34' || 
+     number.toString().substring(0, 2) === '37') && number.toString().length === 15) 
+    {
+    return 'AMEX';
+    }
+  else if (number.toString().substring(0, 4) === '6011' && number.toString().length === 16)
+    {
+    return 'Discover';
+    }
+  else if ((number.toString().substring(0,2) === '51' ||
+            number.toString().substring(0,2) === '52' ||
+            number.toString().substring(0,2) === '53' ||
+            number.toString().substring(0,2) === '54' ||
+            number.toString().substring(0,2) === '55') && number.toString().length === 16) 
+    {
+    return 'Mastercard';
+    }
+  else if (number.toString().substring(0,1) === '4' && 
+          (number.toString().length === 13 || number.toString().length === 16))
+    {
+    return 'VISA';
+    }
+    else return 'Unknown';
+}
+
+```
