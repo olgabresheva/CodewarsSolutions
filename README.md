@@ -182,3 +182,45 @@ function getIssuer(number) {
 }
 
 ```
+
+##6/26
+
+[https://www.codewars.com/kata/remove-string-spaces/train/javascript]
+
+```javascript
+function noSpace(x){
+  let str = x.replace(/\s/g, '');
+  return str;
+}
+```
+
+[https://www.codewars.com/kata/do-i-get-a-bonus/train/javascript]
+
+```javascript
+function bonusTime(salary, bonus) {
+  if (bonus === true){
+  return '\u00A3'+(salary * 10);
+} else return '\u00A3'+salary;
+}
+```
+
+[https://www.codewars.com/kata/returning-strings/train/javascript]
+
+```javascript
+function greet(name){
+  return `Hello, ${name} how are you doing today?`
+}
+```
+
+[https://www.codewars.com/kata/string-ends-with/train/javascript]
+
+```javascript
+function solution(str, ending){
+  let strNew = str.slice(-(ending.length));
+  if (strNew === ending){
+  return true;
+  }
+  else return false;
+}
+
+```
