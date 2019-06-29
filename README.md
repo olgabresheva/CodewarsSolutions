@@ -222,5 +222,7 @@ function solution(str, ending){
   }
   else return false;
 }
-
 ```
+
+## 6/27
+added new solution
