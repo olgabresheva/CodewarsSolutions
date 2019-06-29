@@ -224,3 +224,5 @@ function solution(str, ending){
 }
 
 ```
+
+added solution TOG-123432
