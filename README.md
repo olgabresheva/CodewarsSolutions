@@ -226,3 +226,6 @@ function solution(str, ending){
 
 ## 6/27
 added new solution
+
+
+add solution to master 
