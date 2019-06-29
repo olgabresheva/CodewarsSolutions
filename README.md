@@ -234,3 +234,11 @@ added one more solution to master
 master branch solution _(after a new brach has been created)_
 
 master branch: solution V1m
+
+
+_new-branch_**
+new-branch solution
+
+new branch solution-V2
+
+new branch solution_V2.1
