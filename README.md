@@ -232,3 +232,5 @@ add solution to master
 added one more solution to master 
 
 master branch solution _(after a new brach has been created)_
+
+master branch: solution V1m
