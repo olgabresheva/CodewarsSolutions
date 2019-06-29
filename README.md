@@ -229,3 +229,5 @@ added new solution
 
 
 add solution to master 
+
+added one more solution to master 
