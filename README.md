@@ -222,7 +222,11 @@ function solution(str, ending){
   }
   else return false;
 }
-
 ```
+## 6/27
+added new solution
 
-added solution TOG-123432
+
+add solution to master 
+
+added one more solution to master 
