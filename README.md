@@ -242,3 +242,33 @@ new-branch solution
 new branch solution-V2
 
 new branch solution_V2.1
+
+## 6/29 -V1
+
+[https://www.codewars.com/kata/reversed-sequence/train/javascript]
+
+```javascript
+const reverseSeq = n => {
+const arr = [];
+for(let i = n; i >=1; i--){
+  arr.push(i);
+}
+  return arr;
+}
+```
+
+[https://www.codewars.com/kata/fixme-replace-all-dots/train/javascript]
+```javascript
+var replaceDots = function(str) {
+let strNew = str.replace(/\./g, '-');
+  return strNew;
+}
+```
+
+[https://www.codewars.com/kata/string-cleaning/train/javascript]
+```javascript
+function stringClean(s){
+let sNew = s.replace(/\d/g, '');
+return sNew;
+}
+```
