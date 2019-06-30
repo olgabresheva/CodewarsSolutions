@@ -272,3 +272,55 @@ let sNew = s.replace(/\d/g, '');
 return sNew;
 }
 ```
+[https://www.codewars.com/kata/third-angle-of-a-triangle/train/javascript]
+```javascript
+function otherAngle(a, b) {
+let totalDegree = 180;
+let sum = a + b;
+  return totalDegree - sum;
+}
+```
+
+## 6/29 - v2
+
+[https://www.codewars.com/kata/abbreviate-a-two-word-name/train/javascript]
+```javascript
+function abbrevName(name){
+let nameIn;
+  for(let i = 1; i < name.length; i++){
+    if(name[i] === ' '){
+    nameIn = name[0].toUpperCase() + '.' +name[i+1].toUpperCase();
+    }
+  }
+  return nameIn;
+}
+```
+
+[https://www.codewars.com/kata/you-only-need-one-beginner/train/javascript]
+
+```javascript
+function check(a,x){
+return a.includes(x);
+}
+```
+
+[https://www.codewars.com/kata/man-in-the-west/train/javascript]
+
+```javascript
+function checkTheBucket(bucket){
+  return bucket.includes('gold');
+}
+```
+
+[https://www.codewars.com/kata/count-odd-numbers-below-n/train/javascript]
+
+```javascript
+function oddCount(n){
+    return (n-1)/2;
+}
+
+function oddCount(n){
+    return Math.floor(n/2);
+}
+```
+
