@@ -231,10 +231,6 @@ add solution to master
 
 added one more solution to master 
 
-master branch solution _(after a new brach has been created)_
-
-master branch: solution V1m
-
 
 _new-branch_**
 new-branch solution
@@ -321,6 +317,60 @@ function oddCount(n){
 
 function oddCount(n){
     return Math.floor(n/2);
+}
+```
+
+
+
+
+##6/30 
+
+CW solutions in a new-branch:
+
+[https://www.codewars.com/kata/reverse-list-order/train/javascript]
+
+```javascript
+function reverseList(list) {
+const arr = [];
+  for(let i = list.length-1; i >= 0 ; i--){
+  arr.push(list[i]);
+  }
+  return arr;
+}
+```
+
+[https://www.codewars.com/kata/jennys-secret-message/train/javascript]
+
+```javascript
+unction greet(name){
+  if(name === "Johnny"){
+    return "Hello, my love!";
+    }
+  else return "Hello, " + name + "!";
+}
+```
+
+[https://www.codewars.com/kata/super-duper-easy/train/javascript]
+
+```javascript 
+function problem(x){
+if (typeof x === 'string'){
+  return 'Error';
+  }
+else return (x * 50) + 6;
+}
+```
+
+[https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript]
+
+```javascript
+function createArray(number){
+  var newArray = [];
+  for(let i = 1;  i <= number; i++){
+    newArray.push(i);
+  }
+ 
+  return newArray;
 }
 ```
 
