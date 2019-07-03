@@ -374,3 +374,117 @@ function createArray(number){
 }
 ```
 
+## 7/02 
+
+
+[https://www.codewars.com/kata/multiples-of-3-or-5/train/javascript]
+
+```javascript
+function solution(n){
+let sum = 0;
+for (let i = 3; i < n; i++){
+  if(i % 3 === 0 || i % 5 === 0){
+   sum += i;
+   }
+ }
+ return sum;
+}
+```
+
+[https://www.codewars.com/kata/sum-mixed-array/train/javascript]
+```javascript
+function sumMix(x){
+let sum = 0;
+for(let i = 0; i < x.length; i++){
+if(typeof x[i] === 'string'){
+  x[i] = Number(x[i]);
+}
+ sum += x[i];
+}
+return sum;
+}
+```
+
+[https://www.codewars.com/kata/find-numbers-which-are-divisible-by-given-number/train/javascript]
+
+```javascript
+function divisibleBy(numbers, divisor){
+const arr = [];
+for(let i = 0; i < numbers.length; i++){
+  if(numbers[i]% divisor === 0){
+  arr.push(numbers[i])
+}
+  }
+ return arr;
+}
+```
+
+[https://www.codewars.com/kata/simple-fun-number-1-seats-in-theater/train/javascript]
+
+```javascript 
+function seatsInTheater(nCols, nRows, col, row) {
+let blockedCl = (nCols-col)+1;
+let blockedR = nRows-row;
+return blockedCl * blockedR;
+}
+
+https://www.codewars.com/kata/return-the-day/train/javascript
+function whatday(num) { 
+  if(num === 0 || num > 7){
+  return "Wrong, please enter a number between 1 and 7";
+  }
+  else switch (num){
+  case 1: return "Sunday";
+  break;
+  case 2: return "Monday";
+  break;
+  case 3: return "Tuesday";
+  break;
+  case 4: return "Wednesday";
+  break;
+  case 5: return "Thursday";
+  break;
+  case 6: return "Friday";
+  break;
+  case 7: return "Saturday";
+  break;
+  }
+}
+```
+
+[https://www.codewars.com/kata/remove-exclamation-marks/train/javascript]
+
+
+```javascript 
+function removeExclamationMarks(s) {
+   let sNew = s.replace(/\!/g, '');
+  return sNew;
+}
+
+https://www.codewars.com/kata/sum-even-numbers/train/javascript
+
+function sumEvenNumbers(input) {
+  let sum = 0;
+  for(let i = 0; i < input.length; i++){
+    if(input[i] % 2 === 0){
+      sum += input[i]
+    }
+  }
+  return sum;
+}
+```
+
+
+
+[https://www.codewars.com/kata/sum-of-all-the-multiples-of-3-or-5/train/javascript]
+```javascript
+function findSum(n) {
+let sum = 0;
+  for(let i = 3; i <= n; i++){
+    if(!(i % 3) || !(i % 5)){
+    sum += i;
+    }
+  }
+  return sum;
+}
+```
