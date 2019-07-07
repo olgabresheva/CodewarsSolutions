@@ -488,3 +488,35 @@ let sum = 0;
   return sum;
 }
 ```
+
+## 7/7 
+
+[https://www.codewars.com/kata/reversing-a-string/train/javascript]
+```javascript
+function reverseString(str) {
+let strNew = '';
+for (let i = str.length-1; i >=0; i--){
+ strNew += str[i];
+}
+  return strNew;
+}
+```
+
+[https://www.codewars.com/kata/can-we-divide-it/train/javascript]
+
+```javascript
+function isDivideBy(number, a, b) {
+if (!(number % a) && !(number % b)){ 
+  return true;
+  }
+  else return false;
+}
+```
+
+[https://www.codewars.com/kata/makeuppercase/train/javascript]
+
+```javascript
+function makeUpperCase(str) {
+ return str.toUpperCase();
+}
+```
