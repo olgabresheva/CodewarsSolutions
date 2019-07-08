@@ -520,3 +520,44 @@ function makeUpperCase(str) {
  return str.toUpperCase();
 }
 ```
+
+## 7/7 
+
+[https://www.codewars.com/kata/simple-beads-count/train/javascript]
+```javascript
+function countRedBeads(n) {
+let count = 0; 
+  if (n < 2) {
+  return 0;
+  }
+  else for (let i = 1; i < n; i++){
+   count +=2;
+  }
+ return count;
+}
+```
+
+[https://www.codewars.com/kata/string-repeat/train/javascript]
+```javascript
+function repeatStr (n, s) {
+let sNew = '';
+for (let i = 0; i < n; i++){
+  sNew += s;
+}
+  return sNew;
+}
+```
+
+[https://www.codewars.com/kata/create-phone-number/train/javascript]
+```javascript
+function createPhoneNumber(numbers){
+  var format = "(xxx) xxx-xxxx";
+  
+  for(var i = 0; i < numbers.length; i++)
+  {
+    format = format.replace('x', numbers[i]);
+  }
+  
+  return format;
+}
+```
