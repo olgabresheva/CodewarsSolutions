@@ -616,3 +616,47 @@ let str = '';
   return str;
 }
 ```
+
+ olgab/newKatas: 
+ 
+ [https://www.codewars.com/kata/numerical-palindrome-number-1/train/javascript]
+   
+   ```javascript 
+   function palindrome(num){ 
+    if(num < 0 || typeof num === 'string')
+    {
+     return 'Not valid';
+    }
+    else {
+     let str = num.toString().split('');
+     let strLen = str.length/2; 
+     for(let i = 0; i <= strLen; i++){
+       if(str[i] !== str[str.length-1-i])
+          {
+          return false;
+          }
+       }
+     }
+     return true;  
+    }
+   ```
+   
+   [https://www.codewars.com/kata/smallest-value-of-an-array/train/javascript]
+   ```javascript
+   function min(arr, toReturn){
+   let min = arr[0];
+     for(let i = 1; i < arr.length; i++){  
+       if(arr[i] < min){
+        min = arr[i];
+       }
+     }
+     if(toReturn === 'value') 
+     {
+       return min;
+     }
+     else if(toReturn === 'index')
+     {
+       return arr.indexOf(min);
+     }
+    }```
+
