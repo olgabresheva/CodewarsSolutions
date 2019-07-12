@@ -616,3 +616,13 @@ let str = '';
   return str;
 }
 ```
+
+master solutions:
+
+[https://www.codewars.com/kata/reverse-a-number/train/javascript]
+
+```javascriptfunction reverseNumber(n) {
+ let reversed = n.toString().split('').reverse().join('');
+ return parseInt(reversed)* Math.sign(n);
+}
+```
