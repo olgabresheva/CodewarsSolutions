@@ -561,3 +561,58 @@ function createPhoneNumber(numbers){
   return format;
 }
 ```
+
+## 7/11
+
+[https://www.codewars.com/kata/ordering-the-words/train/javascript]
+
+```javascript
+function orderWord(s){
+if(!s || s.length === 0)
+{
+ return "Invalid String!";
+}
+else{ let sNew = '';
+let arr = []
+ for(let i = 0; i < s.length; i++){
+   arr.push(s[i])
+ }
+  arr.sort();
+ for(let i = 0; i < arr.length; i++){
+  sNew += arr[i];
+ }
+ return sNew;
+}
+}
+```
+
+[https://www.codewars.com/kata/filter-coffee/train/javascript]
+
+```javascript
+function search(budget, prices) {
+let pr = [];
+let prStr = '';
+for (let i = 0; i < prices.length; i++){
+  if(budget >= prices[i]){
+  pr.push(prices[i]);
+  }
+}
+ prStr = pr.sort((a, b) => a-b).join();  
+ return prStr;
+}
+```
+
+[https://www.codewars.com/kata/spongebob-meme/train/javascript]
+```javascript
+function spongeMeme(sentence) {
+let str = '';
+ for(let i = 0; i < sentence.length; i++){
+  if (i % 2 === 0)
+  {
+  str += sentence[i].toUpperCase();
+  }
+  else str += sentence[i].toLowerCase();
+ }
+  return str;
+}
+```
