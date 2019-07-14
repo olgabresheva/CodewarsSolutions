@@ -660,3 +660,42 @@ let str = '';
      }
     }```
 
+## 7/13
+ 
+ [https://www.codewars.com/kata/find-the-calculation-type/train/javascript]
+ 
+ ```javascript
+ https://www.codewars.com/kata/count-by-x/train/javascript
+ function countBy(x, n) {
+   var z = [];
+   for(let i = x; i <= x*n; i += x){
+     z.push(i);
+     }
+   return z;
+ }
+ ```
+ 
+ [https://www.codewars.com/kata/reversed-strings/train/javascript]
+ 
+ ```javascrip
+ function solution(str){
+ let strN = '';
+   for(let i = str.length-1; i >=0; i--){
+   strN += str[i];
+   }
+ return strN;
+ }```
+ 
+ [https://www.codewars.com/kata/sum-of-all-the-multiples-of-3-or-5/train/javascript]
+ 
+ ```javascript
+ function findSum(n) {
+ let sum = 0;
+   for(let i = 3; i <= n; i++){
+     if(!(i % 3) || !(i % 5)){
+     sum += i;
+     }
+   }
+   return sum;
+ }
+ ```
