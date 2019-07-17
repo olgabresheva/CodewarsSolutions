@@ -711,3 +711,53 @@ master solutions:
    return sum;
  }
  ```
+ 
+ 
+## 7/16
+
+[https://www.codewars.com/kata/calculate-average/train/javascript]
+
+```javascript
+function find_average(array) {
+let sum = 0;
+  for (let i = 0; i < array.length; i++){
+    sum += array[i]
+  }
+  return sum/array.length;
+}
+```
+
+[https://www.codewars.com/kata/sum-all-the-arrays/train/javascript]
+
+```javascript
+function arraySum(arr) {
+let sum = 0;
+let sum1 = 0;
+  for(let i = 0; i < arr.length; i++){
+    if(typeof arr[i] === "number"){
+    sum += arr[i];
+    }
+    if(typeof arr[i] === "object"){
+    for(let j = 0; j < arr[i].length; j++){
+     sum1 += arr[i][j];
+    }
+```
+
+[https://www.codewars.com/kata/merge-two-sorted-arrays-into-one/train/javascript]
+    ```javascript
+    function mergeArrays(arr1, arr2) {
+    const arr = [];
+    const arrN = [];
+      for(let i = 0; i < arr1.length; i++){
+      arr.push(arr1[i]);
+      }
+      for(let i = 0; i < arr2.length; i++){
+      arr.push(arr2[i]);
+      }
+      for(let i = 0; i < arr.length; i++){
+        if (arr.indexOf(arr[i]) >= i){
+         arrN.push(arr[i]);     
+        }
+      }
+        return arrN.sort((a,b) => a-b);
+    }```
