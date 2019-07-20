@@ -761,3 +761,42 @@ let sum1 = 0;
       }
         return arrN.sort((a,b) => a-b);
     }```
+
+## 7/19 
+
+[https://www.codewars.com/kata/find-the-missing-element-between-two-arrays/train/javascript]
+```javascriptfunction findMissing(arr1, arr2) {
+  arr1.sort((a,b)=> a-b);
+  arr2.sort((a,b)=> a-b);
+  let a; 
+  for(let i = 0; i < arr1.length; i++){
+    if (arr1[i] !== arr2[i]) {
+     return arr1[i];
+    }
+  }
+}
+```
+
+[https://www.codewars.com/kata/simple-transposition/train/javascript]
+ ```javascript
+ function simpleTransposition(text) {
+ let row1 = '';
+ let row2 = '';
+ for (let i = 0; i < text.length; i++){
+  if (!(i % 2)){
+  row1 += text[i];
+  }
+  else if(i % 2){row2 += text[i];}
+  }
+ return row1 + row2;
+ }
+ ```
+ 
+ [https://www.codewars.com/kata/sum-of-positive/train/javascript]
+ ```javascript
+ function positiveSum(arr) {
+ return arr.reduce((acc, el) => {
+  return el > 0? acc + el : acc;}, 0);
+ }
+```
+
