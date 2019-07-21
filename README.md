@@ -800,3 +800,51 @@ let sum1 = 0;
  }
 ```
 
+
+##7/20
+
+[https://www.codewars.com/kata/sum-even-numbers/train/javascript]
+```jaavscript
+function sumEvenNumbers(input) {
+  let sum = 0;
+  for(let i = 0; i < input.length; i++){
+    if(input[i] % 2 === 0){
+      sum += input[i]
+    }
+  }
+  return sum;
+}
+```
+
+[https://www.codewars.com/kata/remove-exclamation-marks/train/javascript]
+```javascript
+function removeExclamationMarks(s) {
+   let sNew = s.replace(/\!/g, '');
+  return sNew;
+}
+```
+
+[https://www.codewars.com/kata/return-the-day/train/javascript]
+```javascript
+function whatday(num) { 
+  if(num === 0 || num > 7){
+  return "Wrong, please enter a number between 1 and 7";
+  }
+  else switch (num){
+  case 1: return "Sunday";
+  break;
+  case 2: return "Monday";
+  break;
+  case 3: return "Tuesday";
+  break;
+  case 4: return "Wednesday";
+  break;
+  case 5: return "Thursday";
+  break;
+  case 6: return "Friday";
+  break;
+  case 7: return "Saturday";
+  break;
+  }
+}
+```
