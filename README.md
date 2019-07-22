@@ -848,3 +848,46 @@ function whatday(num) {
   }
 }
 ```
+
+## 7/21
+[https://www.codewars.com/kata/find-numbers-which-are-divisible-by-given-number/train/javascript]
+
+```javascript
+function divisibleBy(numbers, divisor){
+const arr = [];
+for(let i = 0; i < numbers.length; i++){
+  if(numbers[i]% divisor === 0){
+  arr.push(numbers[i])
+}
+  }
+ return arr;
+}
+```
+
+[https://www.codewars.com/kata/sum-mixed-array/train/javascript]
+
+```javascript
+function sumMix(x){
+let sum = 0;
+for(let i = 0; i < x.length; i++){
+if(typeof x[i] === 'string'){
+  x[i] = Number(x[i]);
+}
+ sum += x[i];
+}
+return sum;
+}
+```
+
+[https://www.codewars.com/kata/multiples-of-3-or-5/train/javascript]
+
+```javascript
+function solution(n){
+let sum = 0;
+for (let i = 3; i < n; i++){
+  if(i % 3 === 0 || i % 5 === 0){
+   sum += i;
+   }
+ }
+ return sum;
+}```
