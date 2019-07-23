@@ -891,3 +891,17 @@ for (let i = 3; i < n; i++){
  }
  return sum;
 }```
+
+
+## 7/22
+
+[https://www.codewars.com/kata/sum-of-positive/train/javascript]
+
+```javascript
+function positiveSum(arr) {
+return arr.reduce((acc, el) => {
+ return el > 0? acc + el : acc;}, 0);
+}
+```
+
+
