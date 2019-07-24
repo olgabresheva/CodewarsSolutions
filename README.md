@@ -904,4 +904,28 @@ return arr.reduce((acc, el) => {
 }
 ```
 
+# 7/23
 
+[https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript]
+
+```javascript
+function createArray(number){
+  var newArray = [];
+  
+  for(let i = 1;  i <= number; i++){
+    newArray.push(i);
+  }
+  return newArray;
+```
+[https://www.codewars.com/kata/reverse-list-order/train/javascript]
+
+```javascript
+function reverseList(list) {
+const arr = [];
+  for(let i = list.length-1; i >= 0 ; i--){
+  arr.push(list[i]);
+  }
+  return arr;
+}
+
+```
