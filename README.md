@@ -929,3 +929,25 @@ const arr = [];
 }
 
 ```
+
+# 7/11/20
+
+Multiples of Two
+```javascript
+function multiply(a, b) {
+  return a * b;
+}
+```
+
+Find Multiples of a Number
+```javascript
+function findMultiples(integer, limit){
+  const arr = [];
+  for(i = integer; i <= limit; i++){
+    if(i % integer === 0){
+      arr.push(i)
+  }
+    }
+    return arr;
+}
+```
