@@ -992,3 +992,18 @@ let copaDelReyGoals = 5;
 
 let totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals;
 ```
+
+```javascript
+function past(h, m, s){
+  return ((h * 3600000) + (m * 60000) + (s*1000));
+}
+
+function addFive(num) {
+  var total = num + 5
+  return total;
+}
+
+function orderOperations () {
+  return (2 + 2) * (2 + 2) * 2
+}
+```
