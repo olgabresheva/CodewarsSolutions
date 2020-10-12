@@ -1007,3 +1007,9 @@ function orderOperations () {
   return (2 + 2) * (2 + 2) * 2
 }
 ```
+
+```javascript
+function power(x,y){
+  return x**y;
+}
+```
